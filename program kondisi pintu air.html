@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Buatlah sebuah program untuk menentukan kondisi pintu air. User akan memasukan sebuah nilai pecahan yaitu tinggi air (dalam meter). Apabila tinggi <=500.0m, status AMAN. Tinggi air antara 500.1-600.0m status WASPADA, tinggi air anatara 600.1-650.0m status SIAGA2, tinggi air >650m status SIAGA1</p>
+
+    <script>
+        let tinggiair = "60.0m";
+
+        if (tinggiair <="500.0m"){
+            console.log ("AMAN")
+        } else if (tinggiair >"500.0m" && tinggiair <="600.0m"){
+            console.log ("WASPADA")
+        } else if (tinggiair >"600.0m" && tinggiair <="650.0m"){
+            console.log ("SIAGA2")
+        } else {
+            console.log ("SIAGA1")
+        }
+    </script>
+</body>
+</html>
